@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bscCsit.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 6%;
+        position: fixed; /* Fixed position for the navbar */
+        top: 0;
+        left: 0;
+        width: 100%; /* Ensures it spans the entire width */
+        background-color: white; /* White background for the navbar */
+        z-index: 1000; /* Ensures it stays on top of other elements */
+    }
+    
+    .nav-links {
+        flex: 1;
+        text-align: right;
+    }
+    
+    .nav-links ul {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .nav-links ul li {
+        display: inline-block;
+        padding: 10px 15px;
+    }
+    
+    .nav-links ul li a {
+        color: black; /* Black text color for the navbar items */
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    
+    /* Hover effect on Navbar Items */
+    .nav-links ul li a:hover {
+        color: #fff;
+        background-color: #f44336;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+       </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/logo1.jpg" style="width: 60px;"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li>
+                    <li>
+                        <a href="#">Program <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="bscCsit.html">Bsc.CSIT</a></li>
+                            <li><a href="bbs.html">BBS</a></li>
+                            <li><a href="bhm.html">BHM</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">News & Events</a></li>
+                    <li><a href="#Enquiry">Enquiry</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <h1><strong>BHM</strong></h1>
+        <h4>Bachelor of Hotel Management</h4>
+    </div>
+    <div class="csit">
+        <h4><strong>BHM</strong></h4>
+            <h2>What is BHM?</h2>
+        <p>
+            BHM (Bachelor of Hotel Management) is an undergraduate program that prepares students for careers in the hospitality and tourism industry. The course focuses on providing a blend of theoretical knowledge and practical skills related to hotel operations, food and beverage management, front-office operations, housekeeping, event management, and customer service. Students also learn about hotel marketing, finance, human resource management, and entrepreneurship. The program is designed to equip graduates with the necessary skills to manage hotel properties, resorts, and other hospitality-related establishments efficiently. With a strong emphasis on communication, leadership, and problem-solving, BHM graduates are well-prepared for roles such as hotel managers, chefs, event coordinators, and customer service managers. The program also offers opportunities for internships and hands-on experience, giving students valuable exposure to the industry.
+        </p>
+        <img src="./images/hm.jpg" alt="loading">
+    </div>
+</body>
+</html>
